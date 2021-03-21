@@ -44,7 +44,7 @@ jobs:
       - name: '运行 【步步宝】'
         if: env.bububaotokenVal
         run: |
-          cd ~/Scripts
+          cd ~/Ggang
           node bububao.js
         env:
           bububaotokenVal: ${{ secrets.bububaotokenVal }}
