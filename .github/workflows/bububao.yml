@@ -45,6 +45,6 @@ jobs:
         if: env.bububaotokenVal
         run: |
           cd ~/Ggang
-          node tree/ZIYE/Task/bububao.js
+          node bububao.js
         env:
           bububaotokenVal: ${{ secrets.bububaotokenVal }}
