@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/donggua1118/Action.git ~/Ggang
+          git clone https://github.com/donggua1118/Ggang.git ~/Ggang
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
